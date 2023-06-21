@@ -17,8 +17,6 @@ public interface CustomerService {
 
     CustomerResponse getCustomerById(Long id) throws UserNotFoundException;
 
-
-
     List<CustomerResponse> getAllCustomers(int page, int items);
 
     ApiResponse<?> deleteCustomer(Long id);

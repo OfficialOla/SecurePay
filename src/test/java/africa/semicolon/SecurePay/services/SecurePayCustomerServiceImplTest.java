@@ -23,7 +23,7 @@ import static java.math.BigInteger.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
-class SecurePayCustomerServiceImplTest {
+class  SecurePayCustomerServiceImplTest {
     @Autowired
     private CustomerService customerService;
 
